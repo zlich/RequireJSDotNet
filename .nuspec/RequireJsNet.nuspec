@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>2.0.0</version>
-    <authors>Stefan Prodan</authors>
+    <version>2.0.1</version>
+    <authors>Stefan Prodan, Zlich Machine</authors>
     <owners>VeriTech</owners>
-    <id>RequireJsNet</id>
+    <id>zlich.RequireJsNet</id>
     <title>RequireJS.NET</title>
     <copyright>VeriTech Solutions SRL 2014</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>RequireJS.NET integrates RequireJS script loader with ASP.NET MVC</description>
     <tags>JavaScript, AMD, RequireJS, ASP.NET MVC</tags>
     <language>en-US</language>
-    <projectUrl>https://github.com/vtfuture/RequireJSDotNet</projectUrl>
-    <licenseUrl>https://github.com/vtfuture/RequireJSDotNet/blob/master/MIT-LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/zlich/RequireJSDotNet</projectUrl>
+    <licenseUrl>https://github.com/zlich/RequireJSDotNet/blob/master/MIT-LICENSE.txt</licenseUrl>
     <iconUrl>http://requirejsnet.veritech.io/img/require-32x32.png</iconUrl>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="Microsoft.Web.Infrastructure" targetFramework=".NETFramework4.0" />

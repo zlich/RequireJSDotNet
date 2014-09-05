@@ -140,5 +140,6 @@ namespace RequireJsNet
         public Action<JsonRequireOutput> ProcessConfig { get; set; }
 
         public Action<JsonRequireOptions> ProcessOptions { get; set; }
+        public string DefaultDataMain { get; set; }
     }
 }

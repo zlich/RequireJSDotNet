@@ -47,7 +47,7 @@ namespace RequireJsNet
 
             var entryPointPath = html.RequireJsEntryPoint(config.EntryPointRoot);
 
-            if (entryPointPath == null)
+            if (config.ConfigurationFiles == null || !config.ConfigurationFiles.Any())
             {
                 return new MvcHtmlString(string.Empty);
             }
@@ -56,6 +56,8 @@ namespace RequireJsNet
             {
                 throw new Exception("No config files to load.");
             }
+
+            entryPointPath = entryPointPath ?? new MvcHtmlString(config.DefaultDataMain);
 
             var processedConfigs = config.ConfigurationFiles.Select(r =>
             {
